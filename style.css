@@ -1,58 +1,111 @@
 body{
-    padding: 50px;
-    color:azure;
+    font-family: "poppins" , sans-serif;
+    padding: 100px;
+    margin:200px;
+    height: 100vh;
+    width: 100vw;
 }
-.heading{
+
+
+.chatbot-container{
+    background: #e8f0ff;
+    border-radius: 50px;
+   
+}
+
+.main-container{
+    background-color:#054fe3;
+    color:white;
     text-align: center;
-    padding-top: 30px;
+    
 }
-.chat-bot-img{
-    height: 150px;
-    padding-top: 15px;
-    padding-left: 10px;
-    border-radius: 50px;
+
+.sub-heading{
+    font-family:'Times New Roman', Times, serif ;
+    padding-top: 20px;
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+    font-weight:500;
 }
-.user-img{
-    height: 170px;
-    padding-right: 10px;
-    border-radius: 50px;
+
+.button.btn{
+    margin-right: 15px;
+    border-radius: 25px;
+    font-weight: 600;
 }
-.form-control{
-    height: 25px;
-    width:10px;
-}
-.btn{
-    font-weight: bold;
-    margin-bottom: 20px;
-}
+
+
 .user-input{
-    margin-bottom: 20px;
-    border-radius: 15px;
-    padding-left: 10px;
- }
-.msg-to-chatbot-container{
-    text-align: right;
-    margin-top: 10px;
     margin-bottom: 10px;
+    border-radius: 35px;
 }
+
+.send-btn{
+    margin-bottom: 10px;
+    
+}
+
+.chatbot-icon{
+    padding: 10px;
+    border-radius: 15px;
+  
+}
+
+.chat-container{
+    padding: 10px;
+}
+
+.user-icon{
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.icon.btn{
+    height: 40px;
+    width: 40px;
+    color:#cbd2d9;
+    background-color:#054fe3;
+   
+}
+
+.logo.btn{
+    color: #cbd2d9;
+    background-color:#054fe3;
+}
+
 .msg-to-chatbot{
-    background-color: red;
-    color: #ebecf0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
+    background-color: #f6f8f9;
+    font-family: roboto;
+    font-weight: 900;
     border-radius: 20px;
     padding: 10px;
+    color:navy;
 }
-.msg-from-chatbot-container{
-   margin-top: 10px;
-   margin-bottom: 10px;
+
+
+.msg-to-chatbot-container{
+   text-align: right;
+   margin-top: 5px;
+   margin-bottom: 5px;
 }
+
 .msg-from-chatbot{
-    background-color: #cbd2d9;
-    font-family:sans-serif;
-    font-weight: 700;
+    
+    font-family: roboto;
+    font-weight: 900;
     border-radius: 20px;
     padding: 10px;
-    background-color:  #14b102;
+    background-color:rgb(24, 24, 206);
     color:white;
 }
+
+.msg-from-chatbot-container{
+   text-align: left;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   
+}
+
+
+
